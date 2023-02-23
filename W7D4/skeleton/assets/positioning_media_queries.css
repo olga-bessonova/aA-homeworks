@@ -112,5 +112,15 @@ label {
 /* Media Queries! */
 @media all and (max-width: 900px) {
 /* Code Goes Here */
+  /* header.cf{
+    display:none;
+  } */
+  .col{
+    min-width: 600px;
+  }
+
+  nav > ul {
+    display: none;
+  }
 }
 
