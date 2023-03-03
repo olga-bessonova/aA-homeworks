@@ -40,3 +40,5 @@ let kate = new Elephant("Kate", 234, ["writing letters", "stealing peanuts"]);
 let micah = new Elephant("Micah", 143, ["trotting", "playing tic tac toe", "doing elephant ballet"]);
 
 let herd = [ellie, charlie, kate, micah];
+
+const random = Math.floor(Math.random() * months.length);
